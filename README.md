@@ -113,7 +113,8 @@ Checkout these examples to call this as a lib:
 
 This module exposes a single function `download` which takes the same arguments as the command line tool:
 
-* **url_list** A file with the list of url of images to download. It can be a folder of such files. (*required*)
+* **url_list** A file with the list of url of images to download. It can ƒwget
+be a folder of such files. (*required*)
 * **image_size** The size to resize image to (default *256*)
 * **output_folder** The path to the output folder. (default *"images"*)
 * **processes_count** The number of processes used for downloading the pictures. This is important to be high for performance. (default *1*)
